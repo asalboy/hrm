@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+ErrorDocument 401 "mati saja kau"
+ErrorDocument 404 "balik lagi sana"
+
+RewriteRule ^$ index.php
+
+</IfModule>
